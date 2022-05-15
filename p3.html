@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Demosite</title>
+    <link rel="icon" href="https://img.icons8.com/material-sharp/452/puzzle.png" type="image/png">
+</head>
+<body>
+<!-- <body >style="background-color:rgb(105, 142, 172) ;" -->
+    <header>
+        <div id="top">
+        <h1 style="font-size:50px;color:rgb(17, 17, 17);font-family:'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif; ">Demosite</h1>
+        <p style="font-size:x-large ;">Welcome to demosite.Here you can practise whatever you want to.This website is
+            your
+            canvas. </p>
+        </div>
+        <h2 style="font-size:30px;">Table of Content</h2>
+        <ol>
+            <li style="font-size:x-large ;">
+                <a href="#sematics"> Sematics</a>
+            </li>
+            <li style="font-size:x-large ;">
+                <a href="#topicswetalkedabout"> Topics we talked about</a>
+            </li>
+            <li style="font-size:x-large ;">
+                <a href="#image">Image</a>
+            </li>
+            <li style="font-size:x-large ;">
+                <a href="#hyperlink">Hyperlink</a>
+            </li>
+            <li style="font-size:x-large ;">
+                <a href="#table"> Table</a>
+            </li>
+            <li style="font-size:x-large ;">
+                <a href="#mutimedia"> Multimedia</a>
+            </li>
+        </ol>
+        <div id="sematics">
+            <h2 style="font-size:30px;">Sematics</h2>
+            <p style="font-size:x-large ;">Practice of giving content on page <strong>meaning</strong> and
+                <strong>structure</strong>
+                by using proper element.<br>In HTML, for example, the
+                &lt;h1&gt; element is a semantic element, which gives the text it wraps around the role (or meaning) of
+                "a
+                top
+                level
+                heading on your page."
+            </p>
+        </div>
+    </header>
+    <div id="topicswetalkedabout">
+        <h2 style="font-size:25px;"> Topics we talked about</h2>
+        <ol>
+            <li style="font-size:x-large ;">Response cycle</li>
+            <li style="font-size:x-large ;">URL</li>
+            <li style="font-size:x-large ;"><abbr title="Document Object Model">D.O.M</abbr></li>
+            <li style="font-size:x-large ;">Elements, Tags, Attributes</li>
+            <li style="font-size:x-large ;">List
+                <ul>
+                    <li>unordered List</li>
+                    <li>ordered list</li>
+                    <li>description list</li>
+                </ul>
+            </li>
+            <li style="font-size:x-large ;">Images
+                <dl>
+                    <dt>Adding image</dt>
+                    <dd>To add elements we use &lt;img&gt; inline element</dd>
+                    <dt>Favicon</dt>
+                    <dd>Using it as icon on title bar</dd>
+                    <dt>Link</dt>
+                    <dd>It can used as a link</dd>
+
+                </dl>
+            </li>
+            <li style="font-size:x-large ;">Tables</li>
+            <li style="font-size:x-large ;">Multimedia</li>
+            <li style="font-size:x-large ;">Special entities</li>
+            <li style="font-size:x-large ;">Hyperlink
+                <ul>
+                    <li>Absolute reference</li>
+                    <li>Relative reference</li>
+                    <li>Internal reference</li>
+                    <li>Graphical reference</li>
+                </ul>
+
+        </ol>
+    </div>
+    <div id="image">
+        <h2 style="font-size:25px ;">Image</h2>
+        <figure>
+            <img src="image.jpg" alt="Forest in autumn" style="width:30%;">
+            <figcaption style="font-size:20px ;">Forset in autumn season</figcaption>
+        </figure>
+    </div>
+    <div id="hyperlink">
+        <h2 style="font-size:25px ;">Hyperlink</h2>
+
+        <a href="https://www.codechef.com/users/amater_asu" target="_blank" style="font-size:25px;">My codechef page</a>
+        <br>
+        <a href="p2.html" target="_Blank" style="font-size:25px;">demo page</a>
+        <br>
+        <a href="image.jpg" target="_blank"><img src="image.jpg" style="width:20%;" alt="image link"></a>
+    </div>
+    <div id="table">
+        <h2 style="font-size:25px ;">Table</h2>
+        <Table border="1" style="font-size:x-large ;">
+            <caption>Investment details</caption>
+            <thead>
+                <tr>
+                    <th>Stock's Name</th>
+                    <th>quatity</th>
+                    <th>Bying Price</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Life insurence Corporation of India.</td>
+                    <td>15</td>
+                    <td>905</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center;">---</td>
+                </tr>
+                <tr>
+                    <td>Irctc</td>
+                    <td>5</td>
+                    <td>735</td>
+                </tr>
+                <tr>
+                    <td>
+                        latentview
+                    </td>
+                    <td>
+                        76
+                    </td>
+                    <td>
+                        200
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total Investment</td>
+                    <td colspan="2" style="font-size:25px;text-align:right;">32540</td>
+
+                </tr>
+            </tfoot>
+        </Table>
+    </div>
+    <div id="mutimedia">
+        <h2 style="font-size:25px ;">Video</h2>
+        <video src="WhatsAppVideo2022-05-14at10.36.11PM.mp4" controls>there should be a<code>video</code> here</video>
+        <h2 style="font-size:25px ;">Audio</h2>
+        <audio src="Voice002.m4a#t=2" controls>audio is not compatible</audio>
+        <h2 style="font-size:25px ;">iframe</h2>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RiCEy73I-yM"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+    <h2 style="font-size:25px ;">Social Media pages</h2>
+    <a href="https://www.linkedin.com/in/atharva-singh" target="_blank"><img src="linkedin-brands.svg" style="width:6%;"
+            alt="Linkedin icon"></a>
+    &emsp14;&emsp14;&emsp14;
+    <a href="https://twitter.com/Atharva67525268?t=AvQVmo6L2mZ3A&s=03" target="_blank"><img src="twitter-brands.svg"
+            style="width:6%;" alt="Twitter icon"></a>
+    &emsp14;&emsp14;&emsp14;
+    <a href="https://www.instagram.com/atharva_singh9/" target="_blank"><img src="instagram-brands.svg"
+            style="width:6%;" alt="instagram icon"></a>
+    <br>
+    <br>
+    <br>
+    <a href="#top" style="font-size:25px">Back to top</a>
+    <br>
+    <br>
+    <br>
+    <footer>
+
+        <details style="font-size:25px">
+            <summary>About the owner of this page</summary>
+            <p>Name :Atharva Singh<br>Currently pursuing B.tech in Information Technology<br>from Harcourt Butler
+                Technical University<br>
+                <a href="mailto:atharva9arvin@gmail.com?subject=Reaching%20Out&body=How%20are%20">Gmail</a>
+        </details>
+    </footer>
+</body>
+
+</html></html>
