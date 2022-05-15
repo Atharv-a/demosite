@@ -1,2 +1,2 @@
-# web-d.github.io
+# web
 Files related web development
