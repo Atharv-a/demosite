@@ -1,2 +1,2 @@
-# web
+# demosite
 Files related web development
